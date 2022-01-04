@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/* 
+Europa-Bold Bold
+
+font-family: europa, sans-serif;
+font-weight: 700;
+font-style: normal;
+ */
+/* Europa-Regular Regular
+
+font-family: europa, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Europa-Regular RegularItalic
+
+font-family: europa, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+
+Europa-Bold BoldItalic
+font-family: europa, sans-serif;
+font-weight: 700;
+font-style: italic; */
+* {
+  margin: 0;
+  padding: 0; }
+
+.button, .section_login .login_btn button, .section_welcome .button-welcome button {
+  background-color: #4795E9;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 120px;
+  font-size: 18px; }
+
+.section, .section_welcome, .section_lessons, .section_units {
+  margin: 0 10%; }
+
+.h1, .title_login h1, .title_login .section_lessons .title-lessons h1, .section_lessons .title-lessons .title_login h1, .section_welcome .title-welcome h1 {
+  font-family: 'Europa', sans-serif;
+  font-size: 38px; }
+
+.parrafo, .section_welcome .text-welcome p, .section_units .lessonOne .box-unit p {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 18px; }
+
+.body_login {
+  background-image: url("../images/Mapa opacidad.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden; }
+
+.header_login {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  padding: 15px;
+  background-color: #fff; }
+  .header_login .logo img {
+    width: 200px;
+    height: 60px; }
+  .header_login .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .header_login .menu i {
+      width: 30px;
+      height: 25px; }
+
+.title_login {
+  margin-top: 100px;
+  text-align: center; }
+
+.section_login {
+  margin: 50px 10% 80px 10%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px; }
+  .section_login .login_data {
+    padding: 5px; }
+    .section_login .login_data .input_login {
+      display: flex;
+      flex-direction: column; }
+      .section_login .login_data .input_login label {
+        font-family: 'Monserrat', sans-serif;
+        font-size: 19px;
+        margin: 10px 0; }
+      .section_login .login_data .input_login input {
+        height: 40px;
+        border-radius: 5px; }
+  .section_login .login_restore {
+    margin: 10px 0;
+    text-align: center; }
+    .section_login .login_restore a {
+      text-decoration: none;
+      color: #1997F0; }
+  .section_login .login_btn {
+    margin: 20px 0 10px 0;
+    text-align: center; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1997F0;
+  padding: 15px; }
+  footer .footer_logo {
+    text-align: center; }
+    footer .footer_logo img {
+      width: 75px;
+      height: 80px; }
+  footer .footer_copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    footer .footer_copyright img {
+      width: 12px;
+      height: 12px;
+      margin-right: 5px; }
+
+.header_welcome {
+  height: 450px;
+  background-image: url("../images/cámino .jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .header_welcome .nav-header {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 35px 15px 0 15px; }
+    .header_welcome .nav-header .logo img {
+      width: 210px;
+      height: 60px; }
+    .header_welcome .nav-header .menu {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .header_welcome .nav-header .menu i {
+        width: 30px;
+        height: 25px; }
+
+.section_welcome {
+  display: flex;
+  flex-direction: column; }
+  .section_welcome .title-welcome {
+    text-align: center;
+    margin: 15px 0; }
+  .section_welcome .text-welcome {
+    text-align: center; }
+    .section_welcome .text-welcome p {
+      display: block;
+      margin: 15px 0; }
+  .section_welcome .button-welcome {
+    text-align: center;
+    margin: 15px 0 10px; }
+    .section_welcome .button-welcome button {
+      width: 140px;
+      padding: 8px 13px;
+      text-align: center; }
+
+.header_platform {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #e5e5e54f; }
+  .header_platform nav {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-items: center;
+    align-items: center;
+    margin: 15px 10%; }
+    .header_platform nav .returnPage {
+      padding: 5px; }
+      .header_platform nav .returnPage a button {
+        background-color: #cfcecefb;
+        width: 35px;
+        height: 35px;
+        border-radius: 10px;
+        border: none; }
+    .header_platform nav .nav-logo {
+      justify-self: right; }
+      .header_platform nav .nav-logo img {
+        width: 200px;
+        height: 60px; }
+
+.section_lessons {
+  margin-top: 120px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-rows: 60px repeat(5, 1fr);
+  gap: 20px; }
+  .section_lessons .title-lessons h1 {
+    display: block;
+    width: 120px;
+    border-bottom: 2px solid #707070; }
+  .section_lessons .box-image, .section_lessons .lesson-box #box-one, .section_lessons .lesson-box #box-two, .section_lessons .lesson-box #box-three, .section_lessons .lesson-box #box-four, .section_lessons .lesson-box #box-five {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px; }
+    .section_lessons .box-image h3, .section_lessons .lesson-box #box-one h3, .section_lessons .lesson-box #box-two h3, .section_lessons .lesson-box #box-three h3, .section_lessons .lesson-box #box-four h3, .section_lessons .lesson-box #box-five h3 {
+      font-family: 'Europa-Bold', sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      color: #fff;
+      position: relative;
+      top: 150px;
+      left: 20px; }
+  .section_lessons .lesson-box {
+    width: 100%;
+    height: 210px; }
+    .section_lessons .lesson-box a {
+      text-decoration: none; }
+    .section_lessons .lesson-box #box-one {
+      background-image: url("../images/mapa tefan.jpg");
+      background-size: cover; }
+    .section_lessons .lesson-box #box-two {
+      background-image: url("../images/mapa tefan.jpg");
+      background-size: cover; }
+      .section_lessons .lesson-box #box-two h3 {
+        position: relative;
+        top: 115px; }
+    .section_lessons .lesson-box #box-three {
+      background-image: url("../images/mapa tefan.jpg");
+      background-size: cover; }
+    .section_lessons .lesson-box #box-four {
+      background-image: url("../images/mapa tefan.jpg");
+      background-size: cover; }
+      .section_lessons .lesson-box #box-four h3 {
+        top: 115px; }
+    .section_lessons .lesson-box #box-five {
+      background-image: url("../images/mapa tefan.jpg");
+      background-size: cover; }
+      .section_lessons .lesson-box #box-five h3 {
+        top: 90px; }
+        .section_lessons .lesson-box #box-five h3 span {
+          font-size: 16px; }
+
+.section_units {
+  margin-top: 130px;
+  margin-bottom: 100px; }
+  .section_units .title-unit {
+    font-family: 'Europa-Bold', sans-serif;
+    font-size: 30px;
+    margin: 50px 0;
+    text-align: center; }
+  .section_units .lessonOne {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px; }
+    .section_units .lessonOne .box-unit {
+      display: grid;
+      gap: 10px;
+      background-color: #6fd6e5;
+      padding: 10px;
+      border-radius: 20px; }
+      .section_units .lessonOne .box-unit img {
+        justify-self: center;
+        width: 60px;
+        height: 60px; }
+      .section_units .lessonOne .box-unit h4 {
+        font-family: 'Europa-Bold', sans-serif;
+        font-size: 22px;
+        color: #fff;
+        text-align: center; }
+      .section_units .lessonOne .box-unit p {
+        text-align: center; }
+      .section_units .lessonOne .box-unit span {
+        text-align: right;
+        color: #fff;
+        font-size: 12px; }
