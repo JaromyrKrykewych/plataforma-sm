@@ -45,7 +45,7 @@ font-style: italic; */
   font-family: 'Europa', sans-serif;
   font-size: 38px; }
 
-.parrafo, .section_welcome .text-welcome p, .section_units .lessonOne .box-unit p {
+.parrafo, .section_welcome .text-welcome p, .section_units .lessonOne .box-unit p, .section_units .lessonTwo .box-unit p, .section_units .lessonThree .box-unit p, .section_units .lessonFour .box-unit p, .section_units .lessonFive .box-unit p {
   font-family: 'Monserrat', sans-serif;
   font-size: 18px; }
 
@@ -269,6 +269,106 @@ footer {
       .section_units .lessonOne .box-unit p {
         text-align: center; }
       .section_units .lessonOne .box-unit span {
+        text-align: right;
+        color: #fff;
+        font-size: 12px; }
+  .section_units .lessonTwo {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 20px; }
+    .section_units .lessonTwo .box-unit {
+      display: grid;
+      gap: 10px;
+      background-color: #6fd6e5;
+      padding: 10px;
+      border-radius: 20px; }
+      .section_units .lessonTwo .box-unit img {
+        justify-self: center;
+        width: 60px;
+        height: 60px; }
+      .section_units .lessonTwo .box-unit h4 {
+        font-family: 'Europa-Bold', sans-serif;
+        font-size: 22px;
+        color: #fff;
+        text-align: center; }
+      .section_units .lessonTwo .box-unit p {
+        text-align: center; }
+      .section_units .lessonTwo .box-unit span {
+        text-align: right;
+        color: #fff;
+        font-size: 12px; }
+  .section_units .lessonThree {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 20px; }
+    .section_units .lessonThree .box-unit {
+      display: grid;
+      gap: 10px;
+      background-color: #6fd6e5;
+      padding: 10px;
+      border-radius: 20px; }
+      .section_units .lessonThree .box-unit img {
+        justify-self: center;
+        width: 60px;
+        height: 60px; }
+      .section_units .lessonThree .box-unit h4 {
+        font-family: 'Europa-Bold', sans-serif;
+        font-size: 22px;
+        color: #fff;
+        text-align: center; }
+      .section_units .lessonThree .box-unit p {
+        text-align: center; }
+      .section_units .lessonThree .box-unit span {
+        text-align: right;
+        color: #fff;
+        font-size: 12px; }
+  .section_units .lessonFour {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px; }
+    .section_units .lessonFour .box-unit {
+      display: grid;
+      gap: 10px;
+      background-color: #6fd6e5;
+      padding: 10px;
+      border-radius: 20px; }
+      .section_units .lessonFour .box-unit img {
+        justify-self: center;
+        width: 60px;
+        height: 60px; }
+      .section_units .lessonFour .box-unit h4 {
+        font-family: 'Europa-Bold', sans-serif;
+        font-size: 22px;
+        color: #fff;
+        text-align: center; }
+      .section_units .lessonFour .box-unit p {
+        text-align: center; }
+      .section_units .lessonFour .box-unit span {
+        text-align: right;
+        color: #fff;
+        font-size: 12px; }
+  .section_units .lessonFive {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px; }
+    .section_units .lessonFive .box-unit {
+      display: grid;
+      gap: 10px;
+      background-color: #6fd6e5;
+      padding: 10px;
+      border-radius: 20px; }
+      .section_units .lessonFive .box-unit img {
+        justify-self: center;
+        width: 60px;
+        height: 60px; }
+      .section_units .lessonFive .box-unit h4 {
+        font-family: 'Europa-Bold', sans-serif;
+        font-size: 22px;
+        color: #fff;
+        text-align: center; }
+      .section_units .lessonFive .box-unit p {
+        text-align: center; }
+      .section_units .lessonFive .box-unit span {
         text-align: right;
         color: #fff;
         font-size: 12px; }

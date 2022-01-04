@@ -390,5 +390,16 @@ footer {
         .lessonOne {
             @include grid(2);
         }
-    
+        .lessonTwo {
+            @include grid(5);
+        }
+        .lessonThree {
+            @include grid(5);
+        }
+        .lessonFour {
+            @include grid(2);
+        }
+        .lessonFive {
+            @include grid(3);
+        } 
 }
