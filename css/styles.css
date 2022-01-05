@@ -30,7 +30,7 @@ font-style: italic; */
   margin: 0;
   padding: 0; }
 
-.button, .section_login .login_btn button, .section_welcome .button-welcome button {
+.button, .section_login .login_btn button, .section_welcome .button-welcome button, .section_unit-content .section-download button {
   background-color: #4795E9;
   color: #fff;
   border-radius: 20px;
@@ -401,6 +401,15 @@ footer {
   .section_unit-content .section-text p {
     text-align: left;
     font-size: 19px; }
+  .section_unit-content .section-download {
+    display: grid;
+    gap: 20px;
+    padding: 30px 0; }
+    .section_unit-content .section-download h3 {
+      font-family: 'Europa-Bold', sans-serif;
+      font-size: 24px; }
+    .section_unit-content .section-download button {
+      width: 180px; }
   .section_unit-content .section-buttons {
     display: grid;
     gap: 20px; }

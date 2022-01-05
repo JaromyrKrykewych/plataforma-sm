@@ -441,6 +441,19 @@ footer {
             font-size: 19px;  
         }
     }
+    .section-download {
+        display: grid;
+        gap: 20px;
+        padding: 30px 0;
+        h3 {
+            font-family: 'Europa-Bold', sans-serif;
+            font-size: 24px;
+        }
+        button {
+            @extend .button;
+            width: 180px;
+        }
+    }
     .section-buttons {
         display: grid;
         gap: 20px;
