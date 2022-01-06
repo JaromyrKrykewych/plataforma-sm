@@ -229,11 +229,12 @@ footer {
   .section_units a {
     text-decoration: none;
     color: #000; }
-  .section_units .title-unit {
+  .section_units .title-unit h2 {
     font-family: 'Europa-Bold', sans-serif;
     font-size: 30px;
-    margin: 50px 0;
     text-align: center; }
+  .section_units .title-unit hr {
+    margin: 5px 0 30px; }
   .section_units .lessonOne {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -395,7 +396,11 @@ footer {
       border-bottom: 2px solid #707070;
       width: 170px; }
     .section_unit-content .section-download button {
-      width: 180px; }
+      width: 180px;
+      font-size: 14px; }
+    .section_unit-content .section-download button.two-buttons {
+      width: 220px;
+      margin: 10px 0; }
   .section_unit-content .section-buttons {
     display: grid;
     gap: 20px; }

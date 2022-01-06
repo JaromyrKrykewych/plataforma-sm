@@ -366,10 +366,14 @@ footer {
             color: #000;
         }
         .title-unit {
-            font-family: 'Europa-Bold', sans-serif;
-            font-size: 30px;
-            margin: 50px 0;
-            text-align: center;
+            h2 {
+                font-family: 'Europa-Bold', sans-serif;
+                font-size: 30px;
+                text-align: center;
+            }
+            hr {
+                margin: 5px 0 30px;
+            }
         }
         .lessonOne {
             @include grid(2);
@@ -433,6 +437,11 @@ footer {
         button {
             @extend .button;
             width: 180px;
+            font-size: 14px;
+        }
+        button.two-buttons {
+            width: 220px;
+            margin: 10px 0;
         }
     }
     .section-buttons {
