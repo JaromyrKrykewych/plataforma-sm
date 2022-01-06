@@ -6,39 +6,6 @@ $boxColor: #6fd6e5;
 $linkColor: #1997F0;
 $btnColor: #4795E9;
 
-
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif; */
-
-/* 
-Europa-Bold Bold
-
-font-family: europa, sans-serif;
-font-weight: 700;
-font-style: normal;
- */
-
-/* Europa-Regular Regular
-
-font-family: europa, sans-serif;
-font-weight: 400;
-font-style: normal;
-
-
-Europa-Regular RegularItalic
-
-font-family: europa, sans-serif;
-font-weight: 400;
-font-style: italic;
-
-
-Europa-Bold BoldItalic
-font-family: europa, sans-serif;
-font-weight: 700;
-font-style: italic; */
-
-//Generales
-
 * {
     margin: 0;
     padding: 0;
@@ -64,7 +31,7 @@ font-style: italic; */
 }
 
 .parrafo {
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
@@ -94,8 +61,7 @@ font-style: italic; */
         justify-content: center;
         align-items: center;
         i {
-            width: 30px;
-            height: 25px;
+            font-size: 30px;
         }
     }
 }
@@ -119,13 +85,18 @@ font-style: italic; */
             display: flex;
             flex-direction: column;
             label {
-                font-family: 'Monserrat', sans-serif;
+                font-family: 'Montserrat', sans-serif;
                 font-size: 19px;
                 margin: 10px 0;
             }
             input {
                 height: 40px;
                 border-radius: 5px;
+                border: none;
+                outline: none;
+                &:focus {
+                    border-bottom: 5px solid $mainColor;
+                }
             }
         } 
     }
@@ -142,13 +113,15 @@ font-style: italic; */
         text-align: center;
         button {
             @extend .button;
+            width: 100px;
+            padding: 10px 0;
         }
     }
 }
 footer {
     display: flex;
     flex-direction: column;
-    background-color: $btnColor;
+    background-color: rgba(71, 149, 233, 0.7);
     padding: 15px;
     .footer_logo {
         text-align: center;
@@ -225,6 +198,11 @@ footer {
             width: 140px;
             padding: 8px 13px;
             text-align: center;
+        }
+        hr {
+            width: 140px;
+            margin: 15px auto;
+            color: $darkColor;
         }
     }
 }
@@ -469,7 +447,7 @@ footer {
                     width: 100%;
                     background-color: rgba(25, 151, 240, 0.3);
                     border: none;
-                    font-family: 'Monserrat', sans-serif;
+                    font-family: 'Montserrat', sans-serif;
                     font-size: 16px;
                     font-weight: bold;
                 } 
