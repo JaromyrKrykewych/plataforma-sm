@@ -51,6 +51,7 @@ font-style: italic; */
     padding: 5px 10px;
     width: 120px;
     font-size: 18px;
+    border: none;
 }
 
 .section {
@@ -147,7 +148,7 @@ font-style: italic; */
 footer {
     display: flex;
     flex-direction: column;
-    background-color: $mainColor;
+    background-color: $btnColor;
     padding: 15px;
     .footer_logo {
         text-align: center;
@@ -448,6 +449,8 @@ footer {
         h3 {
             font-family: 'Europa-Bold', sans-serif;
             font-size: 24px;
+            border-bottom: 2px solid $darkColor;
+            width: 170px;
         }
         button {
             @extend .button;
@@ -464,7 +467,7 @@ footer {
                 button {
                     height: 45px;
                     width: 100%;
-                    background-color: #1996f0c2;
+                    background-color: rgba(25, 151, 240, 0.3);
                     border: none;
                     font-family: 'Monserrat', sans-serif;
                     font-size: 16px;
@@ -475,8 +478,10 @@ footer {
                 button {
                     height: 45px;
                     width: 100%;
-                    background-color: $mainColor;
+                    background-color: rgba(25, 151, 240, 0.5);
                     border: none;
+                    color: white;
+                    font-size: 25px;
                 }
             }
         }
